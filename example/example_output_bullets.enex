@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note-export>
+<note-export>
+  <Note>
+    <Title>Title for 1st note</Title>
+    <Content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+      <!DOCTYPE en-note SYSTEM 'http://xml.evernote.com/pub/enml2.dtd'>
+      <en-note>
+        <div>
+          <span style="font-size: 17pt; font-weight: bold;">A section</span>
+          <ul>
+            <li>an item</li>
+            <li>another item</li>
+            <li>and a last one</li>
+          </ul>
+        </div>
+
+        <br/>
+
+        <div>
+          <span style="font-size: 17pt; font-weight: bold;">The second section</span>
+          <ul>
+            <li>which have</li>
+            <li>several</li>
+            <li>items</li>
+            <li>too</li>
+          </ul>
+        </div>
+      </en-note>]]>
+    </Content>
+  </Note>
+
+  <Note>
+    <Title>2nd note title</Title>
+    <Content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+      <!DOCTYPE en-note SYSTEM 'http://xml.evernote.com/pub/enml2.dtd'>
+      <en-note>
+        <div>
+          <span style="font-size: 17pt; font-weight: bold;">And again, a section</span>
+          <ul>
+            <li>with</li>
+            <li>some</li>
+            <li>items</li>
+          </ul>
+        </div>
+      </en-note>]]>
+    </Content>
+  </Note>
+</note-export>

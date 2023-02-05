@@ -1,0 +1,17 @@
+# Title for 1st note
+A section
+- an item
+- another item
+- and a last one
+
+The second section
+- which have
+- several
+- items
+- too
+
+# 2nd note title
+And again, a section
+- with
+- some
+- items
