@@ -21,12 +21,16 @@ parser = argparse.ArgumentParser (
 parser.add_argument ('input', type = argparse.FileType ('r'),
                      help = '<input file>')
 parser.add_argument ('output', type = pathlib.Path, nargs = '?',
-                     help = '<output file>', default = pathlib.Path ('output.enex'))
+                     help = '<output file>')
 parser.add_argument ('--bullets', action = 'store_true', help = 'outputs bulleted lists instead of checklists')
 
 args = parser.parse_args()
 infile = args.input
+# if no output file given, append .enex to input file name as default
 outfile_path = args.output
+if (outfile_path == None):
+    outfile_path = pathlib.Path (infile.name + '.enex')
+
 bullets = args.bullets
 checklist = not bullets
 
